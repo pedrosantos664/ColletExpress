@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro - ConectaCaçamba</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>ConectaCaçamba</h1>
+            <nav>
+                <ul><li><a href="index.html">Início</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="form-section"><h2>Cadastro</h2>
+                <form id="cadastroForm">
+                    <label for="nome">Nome:</label><input type="text" id="nome" name="nome" required>
+                    <label for="email">Email:</label><input type="email" id="email" name="email" required>
+                    <label for="tipo">Tipo de Usuário:</label>
+                    <select id="tipo" name="tipo" required>
+                        <option value="cliente">Cliente</option>
+                        <option value="cacambeiro">Caçambeiro</option>
+                    </select>
+                    <label for="localizacao">Localização:</label><input type="text" id="localizacao" name="localizacao" required>
+                    <button type="submit" class="btn">Cadastrar</button>
+                </form>
+            </section>
+        </main>
+        <footer><p>&copy; 2024 ConectaCaçamba. Todos os direitos reservados.</p></footer>
+        <script src="js/scripts.js">
+        </script>
+        </body>
+        </html>

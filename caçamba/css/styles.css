@@ -1,94 +1,184 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    color: #333333;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	color: #333333;
+	align-items: center;
 }
 
 header {
-    background-color: #333333;
-    color: #FFFFFF;
-    padding: 1rem;
-    text-align: center;
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 1rem;
+	text-align: center;
+	margin: 0 auto;
+	align-items: center;
+}
+
+main {
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	line-height: 0.01;
+	z-index: 5000;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 1rem;
+	display: inline;
+	margin: 0 1rem;
 }
 
 nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 .hero {
-    background-color: #FFC107;
-    padding: 2rem;
-    text-align: center;
-    color: #333333;
+	background-color: #FFC107;
+	padding: 2rem;
+	text-align: center;
+	color: #333333;
 }
 
 .hero h2 {
-    margin: 0;
+	margin: 0;
 }
 
 .hero p {
-    margin: 1rem 0;
+	margin: 1rem 0;
 }
 
 .btn {
-    background-color: #4CAF50;
-    color: #FFFFFF;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
+	background-color: #4CAF50;
+	color: #FFFFFF;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
 }
 
 .form-section {
-    padding: 2rem;
-    background-color: #F5F5F5;
-    max-width: 400px;
-    margin: 2rem auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	background-color: #fff;
+	max-width: 400px;
+	margin: 2rem auto;
+	border-radius: 8px;
+	border: solid 2px #4CAF50;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-saiba-mais {
+	display: inline-block;
+	padding: 20px 30px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 50px;
+	transition: background-color 0.3s, color 0.3s;
+	margin-top: 50px;
+}
+
+.btn-saiba-mais:hover {
+	background-color: #0056b3;
+	color: #fff;
 }
 
 form label {
-    display: block;
-    margin: 0.5rem 0 0.2rem;
+	display: block;
+	margin: 0.5rem 0 0.2rem;
 }
 
 form input {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
 
 footer {
-    background-color: #333333;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1rem;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 2;
 }
 
+#collectExpress_Index {
+	font-family: Arial, sans-serif;
+	font-size: 150px;
+	font-weight: bold;
+	text-align: left;
+	color: black;
+}
+
+#descricao_1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	color: black;
+}
+
+#servicosList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.servico-item {
+	border: 2px solid #4CAF50;
+	border-radius: 8px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: calc(33% - 20px);
+	/* Ajuste o tamanho conforme necessário */
+	margin: auto;
+}
+
+.servico-nome {
+	font-size: 1.2em;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.servico-localizacao {
+	font-size: 1em;
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.servico-preco {
+	font-size: 1.1em;
+	color: #4CAF50;
+}
+
+.serviçosdisponiveis {
+	align-content: center;
+}
+
+/*@media screen and (max-width: 500px)*/
 @media (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin: 0.5rem 0;
-    }
+	nav ul li {
+		display: block;
+		margin: 0.5rem 0;
+	}
 }

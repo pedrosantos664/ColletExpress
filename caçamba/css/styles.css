@@ -9,12 +9,10 @@ body {
 }
 
 header {
-	background-color: #333333;
-	color: #FFFFFF;
 	padding: 1rem;
-	text-align: center;
 	margin: 0 auto;
 	align-items: center;
+	background-color: #333333;
 }
 
 main {
@@ -125,6 +123,7 @@ footer {
 	font-weight: bold;
 	text-align: left;
 	color: black;
+    margin-left: -100px;
 }
 
 #descricao_1 {
@@ -133,6 +132,57 @@ footer {
 	font-weight: normal;
 	text-align: left;
 	color: black;
+    margin-left: -45px;
+}
+
+.O_q {
+	font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #676767;
+	margin-top: 90px;
+	font-weight: bold;
+}
+
+.container_ofere {
+	margin-top: 100px;
+	margin-left: 140px;
+    position: center;
+    width: 80%;
+    height: 150px;
+    box-shadow: 0px 4px 30px 0px #00000099;
+    border-radius: 20px;
+    display: flex;
+	padding-top: -10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#grafico{
+	margin-left: -210px;
+}
+
+.conteudo1{
+	margin-left: -420px;
+}
+
+.titulo{
+	font-weight: bold;
+	color:#676767;
+}
+
+.texto{
+	font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #676767;
+    justify-content: space-between;
+}
+
+#engrenagem{
+	margin-left: -510px;
 }
 
 #servicosList {

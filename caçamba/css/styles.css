@@ -157,13 +157,13 @@ footer {
 }
 
 .facil2{
-	font-family: Arial, sans-serif;
+	font-weight: bold; 
     font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-    color: #676767;
-	font-weight: bold;
-	margin: -10px;
+	color:#676767;
+	margin-top: -6px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
 	
 }
 
@@ -195,13 +195,35 @@ footer {
     justify-content: space-between;
 }
 
+#grafico {
+	margin-right: -10px;
+}
+
+.conteudo1{
+	margin-left: -370px;
+}
+
+.conteudo2{
+	margin-left: -160px;
+}
+
+.conteudo3{
+	margin-left: -150px;
+}
+
 #engrenagem{
 	margin-left: -510px;
 }
 
 .collect{
-	border-width: 3.5px;
-	color:black;
+	padding: -10px;
+	border: 2px solid #000;
+	display: inline-block;
+}
+
+.caixa{
+    margin-left: 545px;
+	margin-top: -88px;
 }
 
 .textoFacil {

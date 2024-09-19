@@ -1,0 +1,100 @@
+.oQue {
+	font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #676767;
+	margin-top: 90px;
+	font-weight: bold;
+}
+
+.facil{
+	font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: #676767;
+	margin-top: 180px;
+	font-weight: bold;
+	
+}
+
+.facil2{
+	font-weight: bold; 
+    font-size: 40px;
+	color:#676767;
+	margin-top: -6px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	
+}
+
+.container_ofere {
+	margin-top: 100px;
+	margin-left: 140px;
+    position: center;
+    width: 80%;
+    height: 150px;
+    box-shadow: 0px 4px 30px 0px #00000099;
+    border-radius: 20px;
+    display: flex;
+	padding-top: -10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo{
+	font-weight: bold;
+	color:#676767;
+}
+
+.texto{
+	font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: #676767;
+    justify-content: space-between;
+}
+
+#grafico {
+	margin-right: -10px;
+}
+
+.conteudo1{
+	margin-left: -370px;
+}
+
+.conteudo2{
+	margin-left: -160px;
+}
+
+.conteudo3{
+	margin-left: -150px;
+}
+
+#engrenagem{
+	margin-left: -510px;
+}
+
+.collect{
+	padding: -10px;
+	border: 2px solid #000;
+	display: inline-block;
+}
+
+.caixa{
+    margin-left: 545px;
+	margin-top: -88px;
+}
+
+.textoFacil {
+	font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #676767;
+    justify-content: space-between;
+	margin-top: 70px;
+}

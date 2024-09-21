@@ -12,7 +12,7 @@ header {
 	padding: 1rem;
 	margin: 0 auto;
 	align-items: center;
-	background-color: #333333;
+	background-color: #FFFFFF;
 }
 
 main {
@@ -23,20 +23,53 @@ main {
 	z-index: 5000;
 }
 
-nav ul {
-	list-style: none;
-	padding: 0;
+nav {
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	display: flex;
+	gap: 20px;
 }
 
-nav ul li {
-	display: inline;
-	margin: 0 1rem;
+#logo {
+	font-size: 24px;
+	font-weight: bold;
 }
 
 nav ul li a {
-	color: #FFFFFF;
 	text-decoration: none;
+	color: #5F5F5F;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
+.menu{
+	display: flex;
+	gap: 2000000px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 1rem;
+	align-items: left;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	justify-content: space-between;
+}
+
+.perfil-sair {
+    display: flex;
+    gap: 30px; 
+}
+
+#perfil, #sair {
+    cursor: pointer;
+}
+
 
 .hero {
 	background-color: #FFC107;
@@ -73,26 +106,6 @@ nav ul li a {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.btn-saiba-mais {
-	display: inline-block;
-	padding: 20px 30px;
-	font-size: 20px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-	color: #fff;
-	background-color: black;
-	border: 2px solid black;
-	border-radius: 50px;
-	transition: background-color 0.3s, color 0.3s;
-	margin-top: 50px;
-}
-
-.btn-saiba-mais:hover {
-	background-color: #0056b3;
-	color: #fff;
-}
-
 form label {
 	display: block;
 	margin: 0.5rem 0 0.2rem;
@@ -104,35 +117,6 @@ form input {
 	margin-bottom: 1rem;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-}
-
-footer {
-	background-color: #333333;
-	color: #FFFFFF;
-	text-align: center;
-	padding: 1rem;
-	position: fixed;
-	width: 100%;
-	bottom: 0;
-	z-index: 2;
-}
-
-#collectExpress_Index {
-	font-family: Arial, sans-serif;
-	font-size: 150px;
-	font-weight: bold;
-	text-align: left;
-	color: black;
-    margin-left: -100px;
-}
-
-#descricao_1 {
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: left;
-	color: black;
-    margin-left: -45px;
 }
 
 #servicosList {
@@ -176,9 +160,70 @@ footer {
 }
 
 /*@media screen and (max-width: 500px)*/
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 	nav ul li {
-		display: block;
+		display: inline-block;
 		margin: 0.5rem 0;
 	}
+	.nav {
+        display: none;
+    }
+
+}
+
+footer {
+    margin-top: 15px;
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    bottom: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer .footer_content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer .footer_content div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    flex: 1;
+    flex-direction: column;
+}
+
+footer h3 {
+    color: #575757;
+    font-size: 22px;
+    margin: 10px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    color: #575757;
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #575757;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
 }

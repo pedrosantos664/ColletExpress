@@ -8,28 +8,6 @@ body {
     align-items: center;
 }
 
-header {
-    background-color: #333333;
-    color: #FFFFFF;
-    padding: 1rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
 .hero {
     background-color: #FFC107;
     padding: 2rem;
@@ -87,15 +65,6 @@ form input {
     border-radius: 4px;
 }
 
-footer {
-    background-color: #333333;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
 
 /*#servicosList {
     background-color: #ccc;

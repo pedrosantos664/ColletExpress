@@ -16,12 +16,20 @@
 	<header>
 
 		<nav>
-			<ul>
-				<li><a href="index.html">Início</a></li>
-				<li><a href="cadastro.html">Cadastro</a></li>
-				<li><a href="servicos.html">Serviços</a></li>
-				<li><a href="login.html">Login</a></li>
-			</ul>
+			<img src="imagens/logo.png" id="logo" width="60" height="60">
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Início</a></li>
+					<li><a href="cadastro.html">Cadastro</a></li>
+					<li><a href="servicos.html">Serviços</a></li>
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+			<div class="between" style="width: 60%;"></div>
+			<div class="perfil-sair">
+				<img src="imagens/perfil.png" id="perfil" width="35" height="35">
+				<img src="imagens/sair.png" id="sair" width="37" height="37">
+			</div>
 		</nav>
 	</header>
 	<section class="hero">
@@ -30,26 +38,27 @@
 		<a href="cadastro.html" class="btn">Cadastre-se Agora</a>
 	</section>
 	
-	<!--<footer>
-		<p>&copy; 2024 CollectExpress. Todos os direitos reservados.</p>
-	</footer>-->
 	<main>
-
-		<div id="collectExpress_Index">
-			<p>COLLECT</p>
-			<p>EXPRESS</p>
-		</div>
-
+		<div class="centralizar">
+			<div id="collectExpress_Index">
+				<p>COLLECT</p>
+				<p>EXPRESS</p>
+			</div>
+			<img src="imagens/caminhao.jpg" id="caminhao" width="650" height="650">
+			<div id="vazada">
+				<p>COLLECT</p>
+				<p>EXPRESS</p>
+			</div>
 		
-		<div id="descricao_1">
-			<p>Acompanhe o status dos seus pedidos em</p>
-			<p>tempo real. Com o CollectExpress, você</p>
-			<p>sempre sabe onde estão suas caçambas e</p>
-			<p>quando elas estarão disponíveis.</p>
+			<div id="descricao_1">
+				<p>Acompanhe o status dos seus pedidos em</p>
+				<p>tempo real. Com o CollectExpress, você</p>
+				<p>sempre sabe onde estão suas caçambas e</p>
+				<p>quando elas estarão disponíveis.</p>
+			</div>
+
+			<a href="#" class="btn-saiba-mais">SAIBA MAIS</a>
 		</div>
-
-		<a href="#" class="btn-saiba-mais">SAIBA MAIS</a>
-
 	</main>
 
 	<p class="oQue">O QUE OFERECEMOS?</p>
@@ -57,35 +66,99 @@
 	<div class=" container_ofere">
 		<img src="imagens/grafico.png" id="grafico" width="100" height="100">
 		<div class="conteudo1">
-			<p class="titulo">Simplicidade:</p>
-			<p class="texto">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vehicula</p>
+			<p class="titulo">Eficiência Operacional:</p>
+			<p class="texto">Acompanhe suas caçambas em<br> tempo real e otimize seus processos.</p>
 		</div>
 		<img src="imagens/engrenagem.png" id="engrenagem" width="100" height="100">
 		<div class="conteudo2">
-			<p class="titulo">Simplicidade:</p>
-			<p class="texto">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vehicula</p>
+			<p class="titulo">Transparência e Confiabilidade:</p>
+			<p class="texto">Transparência total e pontualidade<br> garantida em cada pedido.</p>
 		</div>
-		<img src="imagens/grafico.png" id="grafico2" width="100" height="100">
+		<img src="imagens/relogio.png" id="relogio" width="60" height="60">
 		<div class="conteudo3">
-			<p class="titulo">Simplicidade:</p>
-			<p class="texto">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.<br> Praesent vehicula</p>
+			<p class="titulo">Simplicidade no Agendamento:</p>
+			<p class="texto">Agende caçambas de forma rápida<br> e sem complicações.</p>
+		</div>
+	</div>
+	<div class="deixeTudo">
+		<p class="facil">DEIXE TUDO MAIS FÁCIL<br> COM O 
+			<span class="collect">COLLECTEXPRESS</span>
+		</p>
+	</div>
+	
+	<p class="textoFacil">Alugue caçambas com praticidade e rapidez. Nossa plataforma facilita todo o processo, desde a solicitação até a coleta, garantindo<br> agilidade, transparência e eficiência. Confie em quem entende suas necessidades e oferece soluções sob medida.<br> Além disso, você acompanha cada etapa em tempo real, com total controle e segurança.</p>
+
+	<p class="nossosServicos">NOSSOS SERVIÇOS</p>
+
+	<div class="carousel">
+		<div class="carousel-item">
+		  <img src="imagens/imagemProvisoria1.png" alt="Imagem 1" class="carousel-img">
+		  <h3 class="titulocarrossel">COISA AQUI</h3>
+		  <p class="conteudocarrossel">TEXTINHO AQ<br>TBMM</p>
+		  <button class="cliqueaqui">CLIQUE AQUI</button>
+		</div>
+		<div class="carousel-item active">
+		  <img src="imagens/imagemProvisoria2.png" alt="Imagem 2" class="carousel-img">
+		  <h3 class="titulocarrossel active">COISA AQUI</h3>
+		  <p class="conteudocarrossel active">TEXTINHO AQ<br>TBMM</p>
+		  <button class="cliqueaqui">CLIQUE AQUI</button>
+		</div>
+		<div class="carousel-item">
+		  <img src="imagens/imagemProvisoria3.png" alt="Imagem 3" class="carousel-img">
+		  <h3 class="titulocarrossel">COISA AQUI</h3>
+		  <p class="conteudocarrossel">TEXTINHO AQ<br>TBMM</p>
+		  <button class="cliqueaqui">CLIQUE AQUI</button>
+		</div>
+	  </div>
+	  	
+	  <div class="carousel-indicators">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+
+	<script src="js/carrosselIndex.js"></script>
+</body>
+
+<footer>
+	<div class="footer_content">
+		<div>
+			<h3>CONTATO</h3>
+			<ul>
+				<li>collectexpress.app@outlook.com</li>
+				<li>collectexpress_instagram</li>
+				<li>collectexpress_tiktok</li>
+				<li>collectexpress_seilaoq</li>
+				<li>(11) 99999-9999</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>DESENVOLVEDORES</h3>
+			<ul>
+				<li>Anna Carolina De Azevedo Leite</li>
+				<li>Gabriel de Andrade Ferreira</li>
+				<li>Giulia Caroline Claro</li>
+				<li>Leonardo Dias Dos Santos</li>
+				<li>Pedro Henrique Batista Dos Santos</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>ACOMPANHE-NOS</h3>
+			<ul>
+				<li>github.com/annacarolinaa</li>
+				<li>github.com/biel388</li>
+				<li>github.com/GiuCaroline</li>
+				<li>github.com/Leo-Santoss</li>
+				<li>github.com/pedrosantos664</li>
+			</ul>
 		</div>
 	</div>
 
-	<p class="facil">DEIXE TUDO MAIS FÁCIL<br> COM O⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-		<div class="caixa">
-			<fieldset class="collect">
-				<p class="facil2">COLLECTEXPRESS</p>
-			</fieldset>
-		</div>
+	<p>
+		CollectExpress® 2024
 	</p>
-	
-	<p class="textoFacil">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-		 Lorem Ipsum has been the industry's standard<br> dummy text ever since the 1500s, when an unknown printer took a
-		  galley of type and scrambled it to make a <br>type specimen book. It has survived not only five centuries, but also
-		   the leap into electronic<br> typesetting, remaining essentially unchanged.</p>
-
-	<script src="js/scripts.js"></script>
-</body>
+</footer>
 
 </html>

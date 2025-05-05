@@ -34,4 +34,5 @@ O ColectExpress permite que você tenha controle total sobre suas operações de
 - Gabriel Andrade Ferreira ([GitHub]((https://github.com/biel388)))
 - Leonardo Dias Dos Santos ([GitHub](https://github.com/Leo-Santoss))
 - Pedro Henrique Batista Dos Santos ([GitHub](https://github.com/pedrosantos664))
+- Vitoria Moreno Tomazeli ([GitHub](https://github.com/vitomazeli))
 

@@ -1,0 +1,95 @@
+TABELA QUE USAREMOS
+ 
+1. Clientes
+
+ID do Cliente (identificador único)
+
+Nome
+
+CPF
+
+CEP
+
+N° Casa
+
+Telefone
+
+Email
+
+Senha (criptografada)
+
+Tipo de Usuário (administrador, cliente)
+
+/==================================
+2. Cacambas
+
+ID da Caçamba (identificador único)
+
+ID fornecedor (foreign key)
+
+Tipo de Caçamba (ex. compactadora, estacionária, basculante, etc)
+
+Capacidade (em metros cúbicos)
+
+Status (disponível, em uso, em manutenção)
+
+preço de aluguel (preço normal + frete embutido)
+
+/==================================
+3. Pedidos
+
+ID do Pedido
+
+ID do Cliente (chave estrangeira)
+
+ID da Caçamba (chave estrangeira)
+
+ID do Pagamento
+
+Data Solicitação
+
+qtd dias de aluguel 
+
+Endereço de Entrega
+
+Status (pendente (se a caçamba ainda será entregue), em progresso(se a caçamba esta sendo utilizada agora), concluída(se a caçamba esta esperando para ser coletada), devolvida)
+
+valor pedido (preço da caçamba x dias que ela foi alugada)
+
+/==================================
+4. Pagamentos e Faturamento
+
+ID do Pagamento (identificador único)
+
+Data do Pagamento
+
+Método de Pagamento (cartão, boleto, etc.)
+
+Status (pendente, pago, reembolsado)
+
+/==================================
+5. fornecedor
+
+ID fornecedor
+
+ID da Caçamba (chave estrangeira)
+
+CNPJ
+
+CEP
+
+N° fornecedor
+
+Telefone
+
+Email
+
+Senha (criptografada)
+
+
+
+
+
+
+
+
